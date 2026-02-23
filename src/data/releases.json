@@ -1,8 +1,5 @@
 [
   {
-    "_comentario": "Hype normal, alto, altissimo"
-  },
-  {
     "id": "gta-vi-2026",
     "titulo": "GTA VI",
     "data": "2026-11-19T14:00:00Z",
@@ -32,7 +29,7 @@
   {
     "id": "the-witcher-4-polaris",
     "titulo": "The Witcher 4 (Codename Polaris)",
-    "data": "2026-12-01T14:00:00Z",
+    "data": null,
     "tipo": "game",
     "plataformas": ["PC", "PS5", "Xbox Series"],
     "dataConfirmada": false,
