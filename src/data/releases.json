@@ -1,119 +1,1805 @@
 [
   {
-    "id": "gta-vi-2026",
-    "titulo": "GTA VI",
+    "id": "Heartopia",
+    "titulo": "Heartopia",
+    "data": "2026-01-07T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC",
+      "iOS",
+      "Android"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Blasten",
+    "titulo": "Blasten!!",
+    "data": "2026-01-08T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Cozy_Caravan",
+    "titulo": "Cozy Caravan",
+    "data": "2026-01-08T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "alto"
+  },
+  {
+    "id": "Pathologic_3",
+    "titulo": "Pathologic 3",
+    "data": "2026-01-09T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "alto"
+  },
+  {
+    "id": "Spear",
+    "titulo": "Spear",
+    "data": "2026-01-09T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "Xbox Series X|S"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Quarantine_Zone_The_Last_Check",
+    "titulo": "Quarantine Zone: The Last Check",
+    "data": "2026-01-12T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Streetdog_BMX",
+    "titulo": "Streetdog BMX",
+    "data": "2026-01-14T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Cassette_Boy",
+    "titulo": "Cassette Boy",
+    "data": "2026-01-15T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "The_Legend_of_Heroes_Trails_Beyond_the_Horizon",
+    "titulo": "The Legend of Heroes: Trails Beyond the Horizon",
+    "data": "2026-01-15T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "PS4",
+      "Switch 2",
+      "Switch",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Brokenlore_Unfollow",
+    "titulo": "Brokenlore: Unfollow",
+    "data": "2026-01-16T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Ghetto_Zombies_Graffiti_Squad",
+    "titulo": "Ghetto Zombies Graffiti Squad",
+    "data": "2026-01-16T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Carnedge",
+    "titulo": "Carnedge",
+    "data": "2026-01-19T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Duet_Night_Abyss",
+    "titulo": "Duet Night Abyss",
+    "data": "2026-01-19T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "MIO_Memories_In_Orbit",
+    "titulo": "MIO: Memories In Orbit",
+    "data": "2026-01-20T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "Xbox Series X|S",
+      "PS5",
+      "Switch 2",
+      "Switch",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Eldegarde",
+    "titulo": "Eldegarde",
+    "data": "2026-01-21T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Gooey",
+    "titulo": "Gooey",
+    "data": "2026-01-21T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "TR-49",
+    "titulo": "TR-49",
+    "data": "2026-01-21T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC",
+      "iOS"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Arknights_Endfield",
+    "titulo": "Arknights: Endfield",
+    "data": "2026-01-22T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "PC",
+      "iOS",
+      "Android"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Hermit_and_Pig",
+    "titulo": "Hermit and Pig",
+    "data": "2026-01-22T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Banquet_For_Fools",
+    "titulo": "Banquet For Fools",
+    "data": "2026-01-23T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Escape_The_Ever_After",
+    "titulo": "Escape The Ever After",
+    "data": "2026-01-23T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S",
+      "Switch",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "The_Fortress",
+    "titulo": "The Fortress",
+    "data": "2026-01-23T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Highguard",
+    "titulo": "Highguard",
+    "data": "2026-01-26T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "alto"
+  },
+  {
+    "id": "Conquest_Tactics",
+    "titulo": "Conquest Tactics",
+    "data": "2026-01-27T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Earth_Must_Die",
+    "titulo": "Earth Must Die",
+    "data": "2026-01-27T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "alto"
+  },
+  {
+    "id": "Rightfully_Beary_Arms",
+    "titulo": "Rightfully, Beary Arms",
+    "data": "2026-01-27T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "Xbox Series X|S",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Underground_Garage",
+    "titulo": "Underground Garage",
+    "data": "2026-01-27T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Lanesplit",
+    "titulo": "Lanesplit",
+    "data": "2026-01-28T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "The_Seven_Deadly_Sins_Origin",
+    "titulo": "The Seven Deadly Sins: Origin",
+    "data": "2026-01-28T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "PC",
+      "iOS",
+      "Android"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Cairn",
+    "titulo": "Cairn",
+    "data": "2026-01-29T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "alto"
+  },
+  {
+    "id": "Dark_Auction",
+    "titulo": "Dark Auction",
+    "data": "2026-01-29T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Switch",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "I_Hate_This_Place",
+    "titulo": "I Hate This Place",
+    "data": "2026-01-29T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "alto"
+  },
+  {
+    "id": "Space_Warlord_Baby_Trading_Simulator",
+    "titulo": "Space Warlord Baby Trading Simulator",
+    "data": "2026-01-29T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Ufophilia",
+    "titulo": "Ufophilia",
+    "data": "2026-01-29T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Code_Vein_2",
+    "titulo": "Code Vein 2",
+    "data": "2026-01-30T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "alto"
+  },
+  {
+    "id": "Folklore_Hunter",
+    "titulo": "Folklore Hunter",
+    "data": "2026-01-30T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "My_Tiny_Garden",
+    "titulo": "My Tiny Garden",
+    "data": "2026-01-30T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "The_18th_Attic",
+    "titulo": "The 18th Attic",
+    "data": "2026-02-02T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Crimson_Capes",
+    "titulo": "Crimson Capes",
+    "data": "2026-02-03T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Dragon_Quest_VII_Reimagined",
+    "titulo": "Dragon Quest VII Reimagined",
+    "data": "2026-02-05T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S",
+      "Switch 2",
+      "Switch",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "alto"
+  },
+  {
+    "id": "Lovish",
+    "titulo": "Lovish",
+    "data": "2026-02-05T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S",
+      "Switch",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Super_Bomberman_Collection",
+    "titulo": "Super Bomberman Collection",
+    "data": "2026-02-05T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S",
+      "Switch 2",
+      "Switch"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Unemployment_Simulator_2018",
+    "titulo": "Unemployment Simulator 2018",
+    "data": "2026-02-05T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Dead_Pets_A_Punk_Rock_Slice_Of_Life_Sim",
+    "titulo": "Dead Pets: A Punk Rock Slice Of Life Sim",
+    "data": "2026-02-06T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Ghost_Gunners",
+    "titulo": "Ghost Gunners",
+    "data": "2026-02-06T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "HumanityZ",
+    "titulo": "HumanityZ",
+    "data": "2026-02-06T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "My_Hero_Academia_Alls_Justice",
+    "titulo": "My Hero Academia: All's Justice",
+    "data": "2026-02-06T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Nioh_3",
+    "titulo": "Nioh 3",
+    "data": "2026-02-06T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5"
+    ],
+    "dataConfirmada": true,
+    "hype": "altissimo"
+  },
+  {
+    "id": "Mewgenics",
+    "titulo": "Mewgenics",
+    "data": "2026-02-10T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Relooted",
+    "titulo": "Relooted",
+    "data": "2026-02-10T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "The_Prisoning_Fletchers_Quest",
+    "titulo": "The Prisoning: Fletcher's Quest",
+    "data": "2026-02-10T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "Switch",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Romeo_is_a_Dead_Man",
+    "titulo": "Romeo is a Dead Man",
+    "data": "2026-02-11T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "alto"
+  },
+  {
+    "id": "Tokyo_Scramble",
+    "titulo": "Tokyo Scramble",
+    "data": "2026-02-11T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "Switch 2"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "BlazBlue_Entropy_Effect_X",
+    "titulo": "BlazBlue Entropy Effect X",
+    "data": "2026-02-12T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S",
+      "Switch"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Disciples_Domination",
+    "titulo": "Disciples: Domination",
+    "data": "2026-02-12T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "God_of_War_Sons_of_Sparta",
+    "titulo": "God of War: Sons of Sparta",
+    "data": "2026-02-12T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5"
+    ],
+    "dataConfirmada": true,
+    "hype": "altissimo"
+  },
+  {
+    "id": "Hordes_of_Hunger",
+    "titulo": "Hordes of Hunger",
+    "data": "2026-02-12T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Mario_Tennis_Fever",
+    "titulo": "Mario Tennis Fever",
+    "data": "2026-02-12T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "Switch 2"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Ride_6",
+    "titulo": "Ride 6",
+    "data": "2026-02-12T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "alto"
+  },
+  {
+    "id": "Clue_Murder_by_Death",
+    "titulo": "Clue: Murder by Death",
+    "data": "2026-02-13T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "PS4",
+      "Xbox Series X|S",
+      "Xbox O"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "High_on_Life_2",
+    "titulo": "High on Life 2",
+    "data": "2026-02-13T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "alto"
+  },
+  {
+    "id": "Rayman_30th_Anniversary_Edition",
+    "titulo": "Rayman: 30th Anniversary Edition",
+    "data": "2026-02-13T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S",
+      "Switch",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "alto"
+  },
+  {
+    "id": "Reanimal",
+    "titulo": "Reanimal",
+    "data": "2026-02-13T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S",
+      "Switch 2",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "alto"
+  },
+  {
+    "id": "Dobbel_Dungeon",
+    "titulo": "Dobbel Dungeon",
+    "data": "2026-02-16T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Forgotlings",
+    "titulo": "Forgotlings",
+    "data": "2026-02-17T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Menherarium",
+    "titulo": "Menherarium",
+    "data": "2026-02-18T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Strange_Brew",
+    "titulo": "Strange Brew",
+    "data": "2026-02-18T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "The_Killing_Stone",
+    "titulo": "The Killing Stone",
+    "data": "2026-02-18T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Demon_Tides",
+    "titulo": "Demon Tides",
+    "data": "2026-02-19T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Gumball_in_Trick-or-Treat_Land",
+    "titulo": "Gumball in Trick-or-Treat Land",
+    "data": "2026-02-19T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC",
+      "Game Boy Color"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Love_Eternal",
+    "titulo": "Love Eternal",
+    "data": "2026-02-19T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "PS4",
+      "Xbox Series X|S",
+      "Switch",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Neva_Prologue",
+    "titulo": "Neva: Prologue",
+    "data": "2026-02-19T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "PS4",
+      "Xbox Series X|S",
+      "Switch",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Paranormasight_The_Mermaids_Curse",
+    "titulo": "Paranormasight: The Mermaid's Curse",
+    "data": "2026-02-19T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "Switch",
+      "PC",
+      "iOS",
+      "Android"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Styx_Blades_of_Greed",
+    "titulo": "Styx: Blades of Greed",
+    "data": "2026-02-19T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Ys_X_Proud_Nordics",
+    "titulo": "Ys X: Proud Nordics",
+    "data": "2026-02-20T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Switch 2",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Konfronto",
+    "titulo": "Konfronto",
+    "data": "2026-02-23T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Rainbow_Six_Mobile",
+    "titulo": "Rainbow Six Mobile",
+    "data": "2026-02-23T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "iOS",
+      "Android"
+    ],
+    "dataConfirmada": true,
+    "hype": "alto"
+  },
+  {
+    "id": "Rise_of_Piracy",
+    "titulo": "Rise of Piracy",
+    "data": "2026-02-24T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Tides_of_Tomorrow",
+    "titulo": "Tides of Tomorrow",
+    "data": "2026-02-24T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Reigns_The_Witcher",
+    "titulo": "Reigns: The Witcher",
+    "data": "2026-02-25T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC",
+      "iOS",
+      "Android"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Tales_of_Berseria_Remastered",
+    "titulo": "Tales of Berseria Remastered",
+    "data": "2026-02-26T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S",
+      "Switch",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Laysara_Summit_Kingdom",
+    "titulo": "Laysara: Summit Kingdom",
+    "data": "2026-02-27T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Resident_Evil_Requiem",
+    "titulo": "Resident Evil Requiem",
+    "data": "2026-02-27T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S",
+      "Switch 2",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "altissimo"
+  },
+  {
+    "id": "Gnaughty_Gnomes",
+    "titulo": "Gnaughty Gnomes",
+    "data": "2026-03-03T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Legacy_of_Kain_Defiance_Remastered",
+    "titulo": "Legacy of Kain: Defiance Remastered",
+    "data": "2026-03-03T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "PS4",
+      "Xbox Series X|S",
+      "Xbox One",
+      "Switch",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "alto"
+  },
+  {
+    "id": "Scott_Pilgrim_EX",
+    "titulo": "Scott Pilgrim EX",
+    "data": "2026-03-03T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "PS4",
+      "Xbox Series X|S",
+      "Switch",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "alto"
+  },
+  {
+    "id": "Homura_Hime",
+    "titulo": "Homura Hime",
+    "data": "2026-03-04T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Marathon",
+    "titulo": "Marathon",
+    "data": "2026-03-05T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "alto"
+  },
+  {
+    "id": "Never_Grace_The_Witch_and_the_Curse",
+    "titulo": "Never Grace: The Witch and the Curse",
+    "data": "2026-03-05T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "PS4",
+      "Xbox Series X|S",
+      "Xbox One",
+      "Switch",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Planet_of_Lana_II_Children_of_the_Leaf",
+    "titulo": "Planet of Lana II: Children of the Leaf",
+    "data": "2026-03-05T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "PS4",
+      "Xbox Series X|S",
+      "Xbox One",
+      "Switch 2",
+      "Switch",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Pokemon_Pokopia",
+    "titulo": "Pokemon Pokopia",
+    "data": "2026-03-05T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "Switch 2"
+    ],
+    "dataConfirmada": true,
+    "hype": "alto"
+  },
+  {
+    "id": "Slay_the_Spire_2",
+    "titulo": "Slay the Spire 2",
+    "data": "2026-03-05T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC early access"
+    ],
+    "dataConfirmada": true,
+    "hype": "alto"
+  },
+  {
+    "id": "Timberborn",
+    "titulo": "Timberborn",
+    "data": "2026-03-05T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Heart_of_the_Machine",
+    "titulo": "Heart of the Machine",
+    "data": "2026-03-06T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Lost_and_Found_Co",
+    "titulo": "Lost and Found Co.",
+    "data": "2026-03-06T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Mirage_7",
+    "titulo": "Mirage 7",
+    "data": "2026-03-06T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "PS4",
+      "Xbox Series X|S",
+      "Xbox One",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Over_The_Top_WW1",
+    "titulo": "Over The Top: WW1",
+    "data": "2026-03-06T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "1348_Ex_Voto",
+    "titulo": "1348 Ex Voto",
+    "data": "2026-03-12T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Fatal_Frame_II_Crimson_Butterfly_Remake",
+    "titulo": "Fatal Frame II: Crimson Butterfly Remake",
+    "data": "2026-03-12T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S",
+      "Switch 2",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "alto"
+  },
+  {
+    "id": "Monster_Hunter_Stories_3_Twisted_Reflection",
+    "titulo": "Monster Hunter Stories 3: Twisted Reflection",
+    "data": "2026-03-13T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S",
+      "Switch 2",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "alto"
+  },
+  {
+    "id": "WWE_2K26",
+    "titulo": "WWE 2K26",
+    "data": "2026-03-13T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S",
+      "Switch 2",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "alto"
+  },
+  {
+    "id": "Starship_Troopers_Ultimate_Bug_War",
+    "titulo": "Starship Troopers: Ultimate Bug War",
+    "data": "2026-03-16T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S",
+      "Switch 2",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "MLB_The_Show_26",
+    "titulo": "MLB The Show 26",
+    "data": "2026-03-17T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S",
+      "Switch"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Xploitzero",
+    "titulo": "Xploit.zero",
+    "data": "2026-03-17T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "Quest 3"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Crimson_Desert",
+    "titulo": "Crimson Desert",
+    "data": "2026-03-19T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "altissimo"
+  },
+  {
+    "id": "Death_Stranding_2_On_The_Beach",
+    "titulo": "Death Stranding 2: On The Beach",
+    "data": "2026-03-19T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "altissimo"
+  },
+  {
+    "id": "Dynasty_Warriors_3_Complete_Edition_Remastered",
+    "titulo": "Dynasty Warriors 3: Complete Edition Remastered",
+    "data": "2026-03-19T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S",
+      "Switch 2",
+      "Switch",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Mouse_PI_For_Hire",
+    "titulo": "Mouse: P.I. For Hire",
+    "data": "2026-03-19T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "PS4",
+      "Xbox Series X|S",
+      "Xbox One",
+      "Switch",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "altissimo"
+  },
+  {
+    "id": "Ghost_Master_Resurrection",
+    "titulo": "Ghost Master: Resurrection",
+    "data": "2026-03-20T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S",
+      "Switch",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Rubato",
+    "titulo": "Rubato",
+    "data": "2026-03-20T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Switch",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Ariana_and_the_Elder_Codex",
+    "titulo": "Ariana and the Elder Codex",
+    "data": "2026-03-24T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "PS4",
+      "Switch"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Copa_City",
+    "titulo": "Copa City",
+    "data": "2026-03-26T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S",
+      "Xbox One",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Life_is_Strange_Reunion",
+    "titulo": "Life is Strange: Reunion",
+    "data": "2026-03-26T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "altissimo"
+  },
+  {
+    "id": "Screamer",
+    "titulo": "Screamer",
+    "data": "2026-03-26T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Legacy_of_Kain_Ascendance",
+    "titulo": "Legacy of Kain: Ascendance",
+    "data": "2026-03-31T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S",
+      "Switch 2",
+      "Switch",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Darwins_Paradox",
+    "titulo": "Darwin's Paradox",
+    "data": "2026-04-02T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S",
+      "Switch 2",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Narin_The_Orange_Room",
+    "titulo": "Narin: The Orange Room",
+    "data": "2026-04-07T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "People_of_Note",
+    "titulo": "People of Note",
+    "data": "2026-04-07T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S",
+      "Switch 2",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "ChainStaff",
+    "titulo": "ChainStaff",
+    "data": "2026-04-08T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S",
+      "Switch",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Before_I_Go",
+    "titulo": "Before I Go",
+    "data": "2026-04-13T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S",
+      "Xbox One",
+      "Switch",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "alto"
+  },
+  {
+    "id": "Dosa_Divas",
+    "titulo": "Dosa Divas",
+    "data": "2026-04-14T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S",
+      "Switch 2",
+      "Switch",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Replaced",
+    "titulo": "Replaced",
+    "data": "2026-04-14T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "Xbox Series X|S",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Cleaning_Up",
+    "titulo": "Cleaning Up!",
+    "data": "2026-04-15T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "PS4",
+      "Switch 2",
+      "Switch",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "ShantyTown",
+    "titulo": "ShantyTown",
+    "data": "2026-04-16T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Tomodachi_Life_Living_the_Dream",
+    "titulo": "Tomodachi Life: Living the Dream",
+    "data": "2026-04-16T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "Switch"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Pragmata",
+    "titulo": "Pragmata",
+    "data": "2026-04-24T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "altissimo"
+  },
+  {
+    "id": "Diablo_IV_Lord_of_Hatred",
+    "titulo": "Diablo IV: Lord of Hatred",
+    "data": "2026-04-28T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "PS4",
+      "Xbox Series X|S",
+      "Xbox One",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "alto"
+  },
+  {
+    "id": "Invincible_Vs",
+    "titulo": "Invincible Vs.",
+    "data": "2026-04-30T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "alto"
+  },
+  {
+    "id": "Saros",
+    "titulo": "Saros",
+    "data": "2026-04-30T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5"
+    ],
+    "dataConfirmada": true,
+    "hype": "alto"
+  },
+  {
+    "id": "Corsairs_-_Battle_of_the_Caribbean",
+    "titulo": "Corsairs - Battle of the Caribbean",
+    "data": "2026-05-18T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Bubsy_4D",
+    "titulo": "Bubsy 4D",
+    "data": "2026-05-22T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "PS4",
+      "Xbox Series X|S",
+      "Xbox One",
+      "Switch 2",
+      "Switch",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Birushana_Winds_of_Fate",
+    "titulo": "Birushana: Winds of Fate",
+    "data": "2026-05-26T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "Switch"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Stonemachia",
+    "titulo": "Stonemachia",
+    "data": "2026-05-26T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "007_First_Light",
+    "titulo": "007 First Light",
+    "data": "2026-05-27T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S",
+      "Switch 2",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "altissimo"
+  },
+  {
+    "id": "Lego_Batman_Legacy_of_the_Dark_Knight",
+    "titulo": "Lego Batman: Legacy of the Dark Knight",
+    "data": "2026-05-29T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S",
+      "Switch 2",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "altissimo"
+  },
+  {
+    "id": "Gothic_1_Remake",
+    "titulo": "Gothic 1 Remake",
+    "data": "2026-06-05T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "The_Adventures_of_Elliot_The_Millennium_Tales",
+    "titulo": "The Adventures of Elliot: The Millennium Tales",
+    "data": "2026-06-18T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S",
+      "Switch 2",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Dead_or_Alive_6_Last_Round",
+    "titulo": "Dead or Alive 6 Last Round",
+    "data": "2026-06-25T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "alto"
+  },
+  {
+    "id": "Granblue_Fantasy_Relink_Endless_Ragnarok",
+    "titulo": "Granblue Fantasy Relink: Endless Ragnarok",
+    "data": "2026-07-09T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "PS4",
+      "Switch 2",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Beast_of_Reincarnation",
+    "titulo": "Beast of Reincarnation",
+    "data": "2026-08-04T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "Marvel_Tokon_Fighting_Souls",
+    "titulo": "Marvel Tokon: Fighting Souls",
+    "data": "2026-08-06T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "alto"
+  },
+  {
+    "id": "Metal_Gear_Solid_Master_Collection_Vol_2",
+    "titulo": "Metal Gear Solid Master Collection Vol. 2",
+    "data": "2026-08-27T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S",
+      "Switch 2",
+      "Switch",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "altissimo"
+  },
+  {
+    "id": "Phantom_Blade_Zero",
+    "titulo": "Phantom Blade Zero",
+    "data": "2026-09-09T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "alto"
+  },
+  {
+    "id": "Grand_Theft_Auto_6",
+    "titulo": "Grand Theft Auto 6",
     "data": "2026-11-19T14:00:00Z",
     "tipo": "game",
-    "plataformas": ["PS5", "Xbox Series"],
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S"
+    ],
     "dataConfirmada": true,
     "hype": "altissimo"
-  },
-  {
-    "id": "resident-evil-9",
-    "titulo": "Resident Evil 9",
-    "data": "2026-01-15T00:00:00Z",
-    "tipo": "game",
-    "plataformas": ["PC", "PS5", "Xbox Series"],
-    "dataConfirmada": false,
-    "hype": "altissimo"
-  },
-  {
-    "id": "marvels-wolverine",
-    "titulo": "Marvel's Wolverine",
-    "data": "2026-10-20T14:00:00Z",
-    "tipo": "game",
-    "plataformas": ["PS5"],
-    "dataConfirmada": false,
-    "hype": "altissimo"
-  },
-  {
-    "id": "the-witcher-4-polaris",
-    "titulo": "The Witcher 4 (Codename Polaris)",
-    "data": null,
-    "tipo": "game",
-    "plataformas": ["PC", "PS5", "Xbox Series"],
-    "dataConfirmada": false,
-    "hype": "altissimo"
-  },
-  {
-    "id": "control-2",
-    "titulo": "Control 2",
-    "data": "2026-05-12T14:00:00Z",
-    "tipo": "game",
-    "plataformas": ["PC", "PS5", "Xbox Series"],
-    "dataConfirmada": false,
-    "hype": "alto"
-  },
-  {
-    "id": "hollow-knight-silksong",
-    "titulo": "Hollow Knight: Silksong",
-    "data": "2026-06-15T14:00:00Z",
-    "tipo": "game",
-    "plataformas": ["PC", "PS5", "Xbox Series", "Switch"],
-    "dataConfirmada": false,
-    "hype": "alto"
-  },
-  {
-    "id": "borderlands-4",
-    "titulo": "Borderlands 4",
-    "data": "2026-08-10T14:00:00Z",
-    "tipo": "game",
-    "plataformas": ["PC", "PS5", "Xbox Series"],
-    "dataConfirmada": false,
-    "hype": "normal"
-  },
-  {
-    "id": "mafia-the-old-country",
-    "titulo": "Mafia: The Old Country",
-    "data": "2026-04-22T14:00:00Z",
-    "tipo": "game",
-    "plataformas": ["PC", "PS5", "Xbox Series"],
-    "dataConfirmada": true,
-    "hype": "alto"
-  },
-  {
-    "id": "fable-2026",
-    "titulo": "Fable",
-    "data": "2026-03-10T14:00:00Z",
-    "tipo": "game",
-    "plataformas": ["PC", "Xbox Series"],
-    "dataConfirmada": false,
-    "hype": "alto"
-  },
-  {
-    "id": "light-no-fire",
-    "titulo": "Light No Fire",
-    "data": "2026-07-14T14:00:00Z",
-    "tipo": "game",
-    "plataformas": ["PC", "PS5", "Xbox Series"],
-    "dataConfirmada": false,
-    "hype": "normal"
-  },
-  {
-    "id": "south-of-midnight",
-    "titulo": "South of Midnight",
-    "data": "2026-03-25T14:00:00Z",
-    "tipo": "game",
-    "plataformas": ["PC", "Xbox Series"],
-    "dataConfirmada": true,
-    "hype": "normal"
-  },
-  {
-    "id": "pragmata-capcom",
-    "titulo": "Pragmata",
-    "data": "2026-09-30T14:00:00Z",
-    "tipo": "game",
-    "plataformas": ["PC", "PS5", "Xbox Series"],
-    "dataConfirmada": false,
-    "hype": "normal"
-  },
-  {
-    "id": "exodus-rpg",
-    "titulo": "Exodus",
-    "data": "2026-11-05T14:00:00Z",
-    "tipo": "game",
-    "plataformas": ["PC", "PS5", "Xbox Series"],
-    "dataConfirmada": false,
-    "hype": "alto"
   }
 ]
