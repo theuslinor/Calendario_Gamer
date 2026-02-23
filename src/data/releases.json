@@ -1,0 +1,122 @@
+[
+  {
+    "_comentario": "Hype normal, alto, altissimo"
+  },
+  {
+    "id": "gta-vi-2026",
+    "titulo": "GTA VI",
+    "data": "2026-11-19T14:00:00Z",
+    "tipo": "game",
+    "plataformas": ["PS5", "Xbox Series"],
+    "dataConfirmada": true,
+    "hype": "altissimo"
+  },
+  {
+    "id": "resident-evil-9",
+    "titulo": "Resident Evil 9",
+    "data": "2026-01-15T00:00:00Z",
+    "tipo": "game",
+    "plataformas": ["PC", "PS5", "Xbox Series"],
+    "dataConfirmada": false,
+    "hype": "altissimo"
+  },
+  {
+    "id": "marvels-wolverine",
+    "titulo": "Marvel's Wolverine",
+    "data": "2026-10-20T14:00:00Z",
+    "tipo": "game",
+    "plataformas": ["PS5"],
+    "dataConfirmada": false,
+    "hype": "altissimo"
+  },
+  {
+    "id": "the-witcher-4-polaris",
+    "titulo": "The Witcher 4 (Codename Polaris)",
+    "data": "2026-12-01T14:00:00Z",
+    "tipo": "game",
+    "plataformas": ["PC", "PS5", "Xbox Series"],
+    "dataConfirmada": false,
+    "hype": "altissimo"
+  },
+  {
+    "id": "control-2",
+    "titulo": "Control 2",
+    "data": "2026-05-12T14:00:00Z",
+    "tipo": "game",
+    "plataformas": ["PC", "PS5", "Xbox Series"],
+    "dataConfirmada": false,
+    "hype": "alto"
+  },
+  {
+    "id": "hollow-knight-silksong",
+    "titulo": "Hollow Knight: Silksong",
+    "data": "2026-06-15T14:00:00Z",
+    "tipo": "game",
+    "plataformas": ["PC", "PS5", "Xbox Series", "Switch"],
+    "dataConfirmada": false,
+    "hype": "alto"
+  },
+  {
+    "id": "borderlands-4",
+    "titulo": "Borderlands 4",
+    "data": "2026-08-10T14:00:00Z",
+    "tipo": "game",
+    "plataformas": ["PC", "PS5", "Xbox Series"],
+    "dataConfirmada": false,
+    "hype": "normal"
+  },
+  {
+    "id": "mafia-the-old-country",
+    "titulo": "Mafia: The Old Country",
+    "data": "2026-04-22T14:00:00Z",
+    "tipo": "game",
+    "plataformas": ["PC", "PS5", "Xbox Series"],
+    "dataConfirmada": true,
+    "hype": "alto"
+  },
+  {
+    "id": "fable-2026",
+    "titulo": "Fable",
+    "data": "2026-03-10T14:00:00Z",
+    "tipo": "game",
+    "plataformas": ["PC", "Xbox Series"],
+    "dataConfirmada": false,
+    "hype": "alto"
+  },
+  {
+    "id": "light-no-fire",
+    "titulo": "Light No Fire",
+    "data": "2026-07-14T14:00:00Z",
+    "tipo": "game",
+    "plataformas": ["PC", "PS5", "Xbox Series"],
+    "dataConfirmada": false,
+    "hype": "normal"
+  },
+  {
+    "id": "south-of-midnight",
+    "titulo": "South of Midnight",
+    "data": "2026-03-25T14:00:00Z",
+    "tipo": "game",
+    "plataformas": ["PC", "Xbox Series"],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
+    "id": "pragmata-capcom",
+    "titulo": "Pragmata",
+    "data": "2026-09-30T14:00:00Z",
+    "tipo": "game",
+    "plataformas": ["PC", "PS5", "Xbox Series"],
+    "dataConfirmada": false,
+    "hype": "normal"
+  },
+  {
+    "id": "exodus-rpg",
+    "titulo": "Exodus",
+    "data": "2026-11-05T14:00:00Z",
+    "tipo": "game",
+    "plataformas": ["PC", "PS5", "Xbox Series"],
+    "dataConfirmada": false,
+    "hype": "alto"
+  }
+]

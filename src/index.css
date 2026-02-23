@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-slate-950 text-slate-50 antialiased;
+  margin: 0;
+  overflow-x: hidden;
+}
