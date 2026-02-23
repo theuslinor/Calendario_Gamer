@@ -1801,5 +1801,1876 @@
     ],
     "dataConfirmada": true,
     "hype": "altissimo"
-  }
+  },
+  {
+  "id": "1999Tokoyo_Building",
+  "titulo": "1999Tokoyo Building",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "4Dead",
+  "titulo": "4Dead",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Ace_Combat_8_Wings_of_Theve",
+  "titulo": "Ace Combat 8: Wings of Theve",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "alto"
+},
+{
+  "id": "Acts_of_Blood",
+  "titulo": "Acts of Blood",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Aeterna_Lucis",
+  "titulo": "Aeterna Lucis",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC",
+    "consoles"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Agefield_High_Rock_The_School",
+  "titulo": "Agefield High: Rock The School",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Aniimo",
+  "titulo": "Aniimo",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "Xbox Series X|S",
+    "PC",
+    "mobile"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Another_Eden_Begins",
+  "titulo": "Another Eden Begins",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "Switch",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Aphelion",
+  "titulo": "Aphelion",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "A_Planet_Full_of_Cats",
+  "titulo": "A Planet Full of Cats",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "Switch",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Armatus",
+  "titulo": "Armatus",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "Xbox Series X|S",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "At_Fates_End",
+  "titulo": "At Fate's End",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "1348_Ex_Voto",
+  "titulo": "1348 Ex Voto",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Battlestar_Galactica_Scattered_Hopes",
+  "titulo": "Battlestar Galactica: Scattered Hopes",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Bestiario",
+  "titulo": "Bestiario",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC",
+    "consoles"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Bloodstained_The_Scarlet_Engagement",
+  "titulo": "Bloodstained: The Scarlet Engagement",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Bobo_Bay",
+  "titulo": "Bobo Bay",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Bolt_Action",
+  "titulo": "Bolt Action",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Brigandine_Abyss",
+  "titulo": "Brigandine Abyss",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "Switch 2",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Captain_Tsubasa_2_World_Fighters",
+  "titulo": "Captain Tsubasa 2: World Fighters",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "Switch",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Carmageddon_Rogue_Shift",
+  "titulo": "Carmageddon: Rogue Shift",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "Switch 2",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Castlevania_Belmonts_Curse",
+  "titulo": "Castlevania: Belmont's Curse",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "Switch",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "alto"
+},
+{
+  "id": "Celestial_Return",
+  "titulo": "Celestial Return",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Childrens_Garden",
+  "titulo": "Children's Garden",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Clean_Up_Earth",
+  "titulo": "Clean Up Earth",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "Switch 2",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Control_Resonant",
+  "titulo": "Control Resonant",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "altissimo"
+},
+{
+  "id": "Crimson_Moon",
+  "titulo": "Crimson Moon",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "CrisisX",
+  "titulo": "CrisisX",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC",
+    "iOS",
+    "Android"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Crown_of_Greed",
+  "titulo": "Crown of Greed",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Cthulhu",
+  "titulo": "Cthulhu",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Danganronpa_2x2",
+  "titulo": "Danganronpa 2x2",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "Switch 2",
+    "Switch",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Danger_Mouse",
+  "titulo": "Danger Mouse",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Switch 2",
+    "Switch",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Dark_Island_Faded_Memories",
+  "titulo": "Dark Island: Faded Memories",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Decapolice",
+  "titulo": "Decapolice",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "PS4",
+    "Switch",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Denshattack",
+  "titulo": "Denshattack!",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "Xbox Series X|S",
+    "Xbox One",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Directive_8020",
+  "titulo": "Directive 8020",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Dissidia_Duellum_Final_Fantasy",
+  "titulo": "Dissidia Duellum Final Fantasy",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "iOS",
+    "Android"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Donutal",
+  "titulo": "Donutal",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Dosa_Divas_One_Last_Meal",
+  "titulo": "Dosa Divas: One Last Meal",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC",
+    "consoles"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Dracamar",
+  "titulo": "Dracamar",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC",
+    "consoles"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Edge_of_Memories",
+  "titulo": "Edge of Memories",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Emberville",
+  "titulo": "Emberville",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "End_of_Abyss",
+  "titulo": "End of Abyss",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Evil_Inside_VR",
+  "titulo": "Evil Inside VR",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PSVR 2",
+    "Quest 3"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Fable",
+  "titulo": "Fable",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "Xbox Series X|S",
+    "PC",
+    "PS5"
+  ],
+  "dataConfirmada": false,
+  "hype": "altissimo"
+},
+{
+  "id": "FateExtra_Record",
+  "titulo": "Fate/Extra Record",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "PS4",
+    "Switch",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Fatle_Frame_II_Crimson_Butterfly_Remake",
+  "titulo": "Fatle Frame II: Crimson Butterfly Remake",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "Switch 2",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Fire_Emblem_Fortunes_Weave",
+  "titulo": "Fire Emblem: Fortune's Weave",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "Switch 2"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Forbidden_Solitaire",
+  "titulo": "Forbidden Solitaire",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Forza_Horizon_6",
+  "titulo": "Forza Horizon 6",
+  "data": "2026-05-19T14:00:00Z",
+  "tipo": "game",
+  "plataformas": [
+    "Xbox Series X|S",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "altissimo"
+},
+{
+  "id": "Foxy_Dumplings",
+  "titulo": "Foxy Dumplings",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "PS4",
+    "Xbox Series X|S",
+    "Switch 2",
+    "Switch",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "FreeStyle_Football_2",
+  "titulo": "FreeStyle Football 2",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "Xbox Series X|S",
+    "PS5"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Gallipoli",
+  "titulo": "Gallipoli",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Game_of_Thrones_War_for_Westeros",
+  "titulo": "Game of Thrones: War for Westeros",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Ghost_Sector",
+  "titulo": "Ghost Sector",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Gothic_1_Remake",
+  "titulo": "Gothic 1 Remake",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Hack_n_Stack",
+  "titulo": "Hack 'n' Stack",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Hashire_Hebereke_EX",
+  "titulo": "Hashire Hebereke: EX",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "Switch",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Hela",
+  "titulo": "Hela",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "Switch 2",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Hordes_of_Fate",
+  "titulo": "Hordes of Fate",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC",
+    "consoles"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "InZoi",
+  "titulo": "InZoi",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5"
+  ],
+  "dataConfirmada": false,
+  "hype": "alto"
+},
+{
+  "id": "John_Carpenters_Toxic_Commando",
+  "titulo": "John Carpenter's Toxic Commando",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Kena_Scars_of_Kasmora",
+  "titulo": "Kena: Scars of Kasmora",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Kingdom_Loop",
+  "titulo": "Kingdom Loop",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Kiln",
+  "titulo": "Kiln",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Knights_Province",
+  "titulo": "Knights Province",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Kusan_City_of_Wolves",
+  "titulo": "Kusan: City of Wolves",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "PS4",
+    "Xbox Series X|S",
+    "Switch",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Kyoto_Xanadu",
+  "titulo": "Kyoto Xanadu",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Switch 2",
+    "Switch",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Lifted",
+  "titulo": "Lifted",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Switch",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Ligmanauts",
+  "titulo": "Ligmanauts",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Limit_Zero_Breakers",
+  "titulo": "Limit Zero Breakers",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC",
+    "iOS",
+    "Android"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Little_Nemo_and_the_Guardians_of_Slumberland",
+  "titulo": "Little Nemo and the Guardians of Slumberland",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC",
+    "Switch"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Lords_of_the_Fallen_2",
+  "titulo": "Lords of the Fallen 2",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "altissimo"
+},
+{
+  "id": "Mad_King_Redemption",
+  "titulo": "Mad King Redemption",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Marvel_1943_Rise_of_Hydra",
+  "titulo": "Marvel 1943: Rise of Hydra",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "TBA"
+  ],
+  "dataConfirmada": false,
+  "hype": "alto"
+},
+{
+  "id": "Marvels_Wolverine",
+  "titulo": "Marvel's Wolverine",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5"
+  ],
+  "dataConfirmada": false,
+  "hype": "altissimo"
+},
+{
+  "id": "Maseylia_Echoes_of_the_Past",
+  "titulo": "Maseylia: Echoes of the Past",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC",
+    "consoles"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Metro_Rivals_New_York",
+  "titulo": "Metro Rivals: New York",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Mortal_Shell_2",
+  "titulo": "Mortal Shell 2",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Mouse_PI_For_Hire",
+  "titulo": "Mouse: PI For Hire",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "PS4",
+    "Xbox Series X|S",
+    "Xbox One",
+    "Switch 2",
+    "Switch",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Mudang_Two_Hearts",
+  "titulo": "Mudang: Two Hearts",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "No_Stone_Unturned",
+  "titulo": "No Stone Unturned",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC",
+    "consoles"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "No_Vacation_For_An_Executioner",
+  "titulo": "No Vacation For An Executioner",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Oblitacrater",
+  "titulo": "Oblitacrater",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC",
+    "consoles"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Onimusha_Way_of_the_Sword",
+  "titulo": "Onimusha: Way of the Sword",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Ontos",
+  "titulo": "Ontos",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Orbitals",
+  "titulo": "Orbitals",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "Switch 2"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Order_of_the_Sinking_Star",
+  "titulo": "Order of the Sinking Star",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Origament_A_Paper_Adventure",
+  "titulo": "Origament: A Paper Adventure",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Otome_Daoshi_-_Fighting_for_Love",
+  "titulo": "Otome Daoshi - Fighting for Love",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "Switch"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Outbound",
+  "titulo": "Outbound",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PlayStation",
+    "Xbox",
+    "Switch",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Out_of_Words",
+  "titulo": "Out of Words",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Outward_2",
+  "titulo": "Outward 2",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Paranormal_Activity",
+  "titulo": "Paranormal Activity",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "TBA"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Pearls_of_Wisdom",
+  "titulo": "Pearls of Wisdom",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Path_of_Mystery_A_Bruch_With_Death",
+  "titulo": "Path of Mystery: A Bruch With Death",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "Switch"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Planet_of_Lana_2",
+  "titulo": "Planet of Lana 2",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "PS4",
+    "Xbox Series X|S",
+    "Xbox One",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Port_of_Jumanah",
+  "titulo": "Port of Jumanah",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "PVKK",
+  "titulo": "PVKK",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Quartermaster",
+  "titulo": "Quartermaster",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Resonance_A_Plague_Tale_Legacy",
+  "titulo": "Resonance: A Plague Tale Legacy",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "alto"
+},
+{
+  "id": "Road_Truckers_New_Beginning",
+  "titulo": "Road Truckers: New Beginning",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "SacriFire",
+  "titulo": "SacriFire",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Sea_of_Remnants",
+  "titulo": "Sea of Remnants",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "PC",
+    "iOS",
+    "Android"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Seina_A_Tale_of_Spirits",
+  "titulo": "Seina: A Tale of Spirits",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "Switch 2",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Shadowman_Darque_Legacy",
+  "titulo": "Shadowman: Darque Legacy",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "Xbox One",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Shadow_of_the_Road",
+  "titulo": "Shadow of the Road",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Shipping_Store_Simulator_2037",
+  "titulo": "Shipping Store Simulator 2037",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Silent_Hill_Townfall",
+  "titulo": "Silent Hill: Townfall",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Silent_Planet_-_Elegy_of_a_Dying_World",
+  "titulo": "Silent Planet - Elegy of a Dying World",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Silver_Pines",
+  "titulo": "Silver Pines",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "Switch",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Skate_10_version",
+  "titulo": "Skate 1.0 version",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "alto"
+},
+{
+  "id": "Slay_the_Spire_2_early_access",
+  "titulo": "Slay the Spire 2 early access",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "alto"
+},
+{
+  "id": "Squadron_42",
+  "titulo": "Squadron 42",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Springs_Eternal",
+  "titulo": "Springs, Eternal",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Sprint_City",
+  "titulo": "Sprint City",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "alto"
+},
+{
+  "id": "Star_Wars_Galactic_Racer",
+  "titulo": "Star Wars: Galactic Racer",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "alto"
+},
+{
+  "id": "Star_Wars_Zero_Company",
+  "titulo": "Star Wars: Zero Company",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "alto"
+},
+{
+  "id": "Subnautica_2_early_access",
+  "titulo": "Subnautica 2 early access",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "Xbox Series X|S",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "alto"
+},
+{
+  "id": "Sudden_Strike_5",
+  "titulo": "Sudden Strike 5",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Super_Mario_Bros_Wonder_-_Nintendo_Switch_2_Edition_Meetup_in_Ballabel_Park",
+  "titulo": "Super Mario Bros. Wonder - Nintendo Switch 2 Edition + Meetup in Ballabel Park",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "Switch 2"
+  ],
+  "dataConfirmada": false,
+  "hype": "alto"
+},
+{
+  "id": "Super_Meat_Boy_3D",
+  "titulo": "Super Meat Boy 3D",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "alto"
+},
+{
+  "id": "The_Adventures_of_Elliot_The_Millennium_Tales",
+  "titulo": "The Adventures of Elliot: The Millennium Tales",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "Switch 2",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "The_Alighieri_Circle_Dantes_Bloodline",
+  "titulo": "The Alighieri Circle: Dante's Bloodline",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "The_Backworld",
+  "titulo": "The Backworld",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "The_Blood_of_Dawnwalker",
+  "titulo": "The Blood of Dawnwalker",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "The_Dungeon_Experience",
+  "titulo": "The Dungeon Experience",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "The_Duskbloods",
+  "titulo": "The Duskbloods",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "Switch 2"
+  ],
+  "dataConfirmada": false,
+  "hype": "alto"
+},
+{
+  "id": "The_Mound_Omen_of_Cthulu",
+  "titulo": "The Mound: Omen of Cthulu",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "The_Occultist",
+  "titulo": "The Occultist",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "The_Sinking_City_2",
+  "titulo": "The Sinking City 2",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Thick_as_Thieves",
+  "titulo": "Thick as Thieves",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Titan_Quest_2_10_version",
+  "titulo": "Titan Quest 2 1.0 version",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Tomb_Raider_Legacy_of_Atlantis",
+  "titulo": "Tomb Raider: Legacy of Atlantis",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "alto"
+},
+{
+  "id": "Tomodachi_Life_Living_the_Dream",
+  "titulo": "Tomodachi Life: Living the Dream",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "Switch"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Train_Kingdom",
+  "titulo": "Train Kingdom",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Tristia_Chronicles",
+  "titulo": "Tristia: Chronicles",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "Switch"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Turok_Origins",
+  "titulo": "Turok Origins",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "Switch 2",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "UnGodly",
+  "titulo": "UnGodly",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "iOS",
+    "Android"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Valor_Mortis",
+  "titulo": "Valor Mortis",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "Xbox Series X|S",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Wabisabi_SushiDerby",
+  "titulo": "Wabisabi SushiDerby",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "Switch",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Warhammer_Survivors",
+  "titulo": "Warhammer Survivors",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Wax_Heads",
+  "titulo": "Wax Heads",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "Xbox Series X|S",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Well_Keeper",
+  "titulo": "Well Keeper",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Witchbrook",
+  "titulo": "Witchbrook",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "Xbox",
+    "Switch",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Worlds_Explorers",
+  "titulo": "Worlds Explorers",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Wrecking_Wave",
+  "titulo": "Wrecking Wave",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "WWE_2K26",
+  "titulo": "WWE 2K26",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "TBA"
+  ],
+  "dataConfirmada": false,
+  "hype": "alto"
+},
+{
+  "id": "Yoshi_and_the_Mysterious_Book",
+  "titulo": "Yoshi and the Mysterious Book",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "Switch 2"
+  ],
+  "dataConfirmada": false,
+  "hype": "alto"
+},
+{
+  "id": "Ys_Memoire_Revelations_in_Celceta",
+  "titulo": "Ys Memoire: Revelations in Celceta",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "Switch"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Ys_X_Proud_Nordics",
+  "titulo": "Ys X: Proud Nordics",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC",
+    "Switch 2"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Yunyun_Syndrome_Rhythm_Psychosis",
+  "titulo": "Yunyun Syndrome!? Rhythm Psychosis",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+},
+{
+  "id": "Zero_Parades",
+  "titulo": "Zero Parades",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PS5",
+    "PC"
+  ],
+  "dataConfirmada": false,
+  "hype": "normal"
+}
 ]
