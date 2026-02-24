@@ -96,31 +96,21 @@ export default function App() {
   const releases = useMemo(() => Array.isArray(dataReleases) ? dataReleases : [], []);
   const idSelecionado = searchParams.get('id');
 
-  // 🟢 ALGORITMO DE BUSCA COM PRIORIDADE (HYPE > FUTURO > PASSADO)
   const searchResults = useMemo(() => {
     if (!searchQuery.trim()) return [];
     const agora = new Date();
-
     return releases
       .filter(item => item.titulo?.toLowerCase().includes(searchQuery.toLowerCase()))
       .sort((a, b) => {
-        // 1. Prioridade por Hype (Altíssimo > Alto > Normal)
         const hypeA = HYPE_WEIGHT[a.hype] || 0;
         const hypeB = HYPE_WEIGHT[b.hype] || 0;
         if (hypeB !== hypeA) return hypeB - hypeA;
-
-        // 2. Prioridade por Tempo (Futuro > Passado)
         const dataA = a.data ? parseISO(a.data) : null;
         const dataB = b.data ? parseISO(b.data) : null;
-
         const isFuturoA = dataA && (isAfter(dataA, agora) || isSameDay(dataA, agora)) ? 1 : 0;
         const isFuturoB = dataB && (isAfter(dataB, agora) || isSameDay(dataB, agora)) ? 1 : 0;
-
         if (isFuturoB !== isFuturoA) return isFuturoB - isFuturoA;
-
-        // 3. Desempate: Se ambos são futuros, o mais próximo primeiro.
         if (isFuturoA && isFuturoB) return dataA - dataB;
-
         return 0;
       })
       .slice(0, 10);
@@ -176,25 +166,20 @@ export default function App() {
         className="fixed top-0 w-full z-50 p-4 md:p-6 border-b border-white/5 bg-slate-900/80 backdrop-blur-xl h-20 md:h-24 flex items-center"
       >
         <div className="max-w-[1600px] mx-auto w-full flex flex-row items-center justify-center gap-4 md:gap-12 lg:gap-16">
-          
           <h1 className="hidden md:block text-[10px] md:text-xs font-black italic tracking-tighter text-cyan-500 uppercase shrink-0">Radar</h1>
-          
           <div className="flex items-center gap-1 md:gap-4 bg-black/20 p-1 rounded-xl border border-white/5 shrink-0">
              <button onClick={() => setViewDate(subMonths(viewDate, 1))} className="p-1.5 md:p-2 hover:bg-white/10 rounded-lg active:scale-90 transition-all"><ChevronLeft size={16} /></button>
              <h2 className="text-[10px] md:text-lg font-black uppercase italic tracking-tighter w-24 md:w-52 text-center whitespace-nowrap">{format(viewDate, 'MMMM yyyy', { locale: ptBR })}</h2>
-             <button onClick={() => setViewDate(addMonths(viewDate, 1))} className="p-2 hover:bg-white/10 rounded-lg active:scale-90 transition-all"><ChevronRight size={16} /></button>
+             <button onClick={() => setViewDate(addMonths(viewDate, 1))} className="p-1.5 md:p-2 hover:bg-white/10 rounded-lg active:scale-90 transition-all"><ChevronRight size={16} /></button>
           </div>
 
           <div className="relative flex-[0.8] max-w-md" ref={searchRef}>
             <div className="relative flex items-center bg-black/40 rounded-xl border border-white/10 px-3 md:px-4 py-1.5 group focus-within:border-cyan-500/50 transition-all shadow-inner">
               <Search size={14} className="text-slate-500 group-focus-within:text-cyan-400 shrink-0" />
               <input 
-                type="text" 
-                placeholder="Buscar..." 
+                type="text" placeholder="Buscar..." 
                 className="bg-transparent border-none outline-none w-full ml-2 md:ml-3 text-[10px] md:text-sm font-bold placeholder:text-slate-700 py-0"
-                value={searchQuery}
-                onFocus={() => setIsSearchOpen(true)}
-                onChange={(e) => setSearchQuery(e.target.value)}
+                value={searchQuery} onFocus={() => setIsSearchOpen(true)} onChange={(e) => setSearchQuery(e.target.value)}
               />
             </div>
 
@@ -211,20 +196,13 @@ export default function App() {
                       normal: "border-white/5 bg-transparent text-slate-300 hover:bg-white/5"
                     };
                     const isFuturo = item.data && (isAfter(parseISO(item.data), new Date()) || isSameDay(parseISO(item.data), new Date()));
-                    
                     return (
                       <button key={item.id} onClick={() => handleSelectGame(item)} className={`w-full flex items-center justify-between p-4 transition-all border-b last:border-0 ${hypeSearchStyles[item.hype] || hypeSearchStyles.normal}`}>
                         <div className="flex flex-col items-start gap-1">
-                          <span className="font-black text-xs uppercase italic tracking-tight flex items-center gap-2">
-                            {item.titulo} 
-                            {item.hype === 'altissimo' && <Flame size={10} className="text-orange-500 animate-pulse" />}
-                          </span>
+                          <span className="font-black text-xs uppercase italic tracking-tight flex items-center gap-2">{item.titulo} {item.hype === 'altissimo' && <Flame size={10} className="text-orange-500 animate-pulse" />}</span>
                           <div className="flex gap-1">
                             {item.plataformas?.map(p => PLATFORM_ICONS[p] && <img key={p} src={PLATFORM_ICONS[p]} alt={p} className="h-2.5 w-2.5 opacity-40" />)}
-                            <span className={`text-[7px] font-black uppercase tracking-widest ml-1 self-center ${isFuturo ? 'text-cyan-500' : 'text-slate-500'}`}>
-                              {item.data ? format(parseISO(item.data), "dd MMM yyyy") : "TBA"} 
-                              {!isFuturo && item.data && " • LANÇADO"}
-                            </span>
+                            <span className={`text-[7px] font-black uppercase tracking-widest ml-1 self-center ${isFuturo ? 'text-cyan-500' : 'text-slate-500'}`}>{item.data ? format(parseISO(item.data), "dd MMM yyyy") : "TBA"} {!isFuturo && item.data && " • LANÇADO"}</span>
                           </div>
                         </div>
                         <ChevronRight size={14} className="opacity-50" />
@@ -244,7 +222,6 @@ export default function App() {
       <div className="pt-24 md:pt-32 max-w-[1600px] mx-auto p-3 md:p-8">
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_350px] gap-6 md:gap-12 items-start">
           
-          {/* CALENDÁRIO */}
           <section className="flex flex-col w-full max-w-4xl mx-auto">
             <div className={`grid ${isMobile ? 'grid-cols-5' : 'grid-cols-7'} mb-3`}>
               {(isMobile ? ['SEG', 'TER', 'QUA', 'QUI', 'SEX'] : ['DOM', 'SEG', 'TER', 'QUA', 'QUI', 'SEX', 'SAB']).map(dia => (
@@ -273,7 +250,6 @@ export default function App() {
             </div>
           </section>
 
-          {/* SIDEBAR PRÓXIMOS */}
           <aside className="lg:sticky lg:top-32 flex flex-col w-full lg:max-h-[550px]">
              <h3 className="text-[10px] font-black text-slate-500 uppercase tracking-[0.4em] flex items-center gap-2 px-1 mb-6"><TrendingUp size={14} className="text-cyan-500" /> Em Breve</h3>
              <div className="flex md:flex-col overflow-x-auto md:overflow-y-auto gap-2 pb-4 no-scrollbar lg:pr-2 snap-x">
@@ -297,7 +273,7 @@ export default function App() {
         </div>
       </div>
 
-      {/* RODAPÉ */}
+      {/* RODAPÉ SCROLLABLE */}
       <div className="max-w-[1600px] mx-auto px-4 md:px-8 mt-12 space-y-24 pb-20">
         <section>
           <h3 className="text-[10px] font-black text-orange-500 uppercase tracking-[0.6em] mb-8 flex items-center gap-3 px-1"><Zap size={16} fill="currentColor" /> Radar de Hype Futurista</h3>
@@ -315,6 +291,7 @@ export default function App() {
           </div>
         </section>
 
+        {/* 🟢 LISTA DE ESPERA COM CORREÇÃO DE CORES POR HYPE */}
         <section>
           <div className="flex items-center gap-4 mb-8 px-1">
             <h3 className="text-[10px] font-black text-slate-500 uppercase tracking-[0.6em] flex items-center gap-3 shrink-0"><Clock size={16} /> Sai quando estiver pronto</h3>
@@ -322,9 +299,14 @@ export default function App() {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-3 md:gap-6">
             {jogosSemDataSorted.map(item => {
-              const hypeTbaStyles = { altissimo: "bg-orange-600/10 border-orange-500/30 text-orange-400", alto: "bg-cyan-500/10 border-cyan-500/30 text-cyan-400", normal: "bg-white/5 border-white/5 text-slate-500" };
+              // Estilos aplicados aqui para refletir a cor do hype na lista de espera
+              const hypeTbaStyles = { 
+                altissimo: "bg-orange-600/10 border-orange-500/30 text-orange-400 hover:bg-orange-600/20 hover:border-orange-500", 
+                alto: "bg-cyan-500/10 border-cyan-500/30 text-cyan-400 hover:bg-cyan-500/20 hover:border-cyan-500", 
+                normal: "bg-white/5 border-white/5 text-slate-500 hover:bg-white/10 hover:border-white/20" 
+              };
               return (
-                <button key={item.id} onClick={() => setSearchParams({ id: item.id })} className={`group border p-5 rounded-[1.5rem] md:rounded-[2rem] transition-all bg-white/5 border-white/5 text-slate-500 uppercase text-center leading-tight hover:scale-[1.03] active:text-cyan-400`}>
+                <button key={item.id} onClick={() => setSearchParams({ id: item.id })} className={`group border p-5 rounded-[1.5rem] md:rounded-[2rem] transition-all uppercase text-center leading-tight hover:scale-[1.03] ${hypeTbaStyles[item.hype] || hypeTbaStyles.normal}`}>
                   <div className="font-black text-[11px] md:text-[13px] mb-3">{item.titulo}</div>
                   <div className="flex justify-center gap-1.5 opacity-30 group-hover:opacity-100 transition-opacity">{item.plataformas?.map(p => PLATFORM_ICONS[p] && <img key={p} src={PLATFORM_ICONS[p]} alt={p} className="h-3 w-3 grayscale" />)}</div>
                 </button>
@@ -334,7 +316,6 @@ export default function App() {
         </section>
       </div>
 
-      {/* MODAIS */}
       <AnimatePresence>
         {diaSelecionado && <DayGamesModal dia={diaSelecionado} jogos={releases.filter(item => item.data && isSameDay(parseISO(item.data), diaSelecionado)).sort((a,b) => (HYPE_WEIGHT[b.hype] || 0) - (HYPE_WEIGHT[a.hype] || 0))} onClose={() => setDiaSelecionado(null)} onSelectGame={(item) => handleSelectGame(item)} />}
       </AnimatePresence>
@@ -378,97 +359,25 @@ function LaunchModal({ item, onClose }) {
   const tempo = useCountdown(item.data);
   const isLancado = item.data && new Date(item.data) < new Date();
   const temData = !!item.data;
-
   const hypeColor = item.hype === 'altissimo' ? 'rgba(249, 115, 22, 0.15)' : item.hype === 'alto' ? 'rgba(6, 182, 212, 0.15)' : 'rgba(255, 255, 255, 0.05)';
   const accentColor = item.hype === 'altissimo' ? 'text-orange-500' : item.hype === 'alto' ? 'text-cyan-400' : 'text-slate-400';
-
-  useEffect(() => { 
-    document.body.style.overflow = 'hidden'; 
-    return () => { document.body.style.overflow = 'unset'; }; 
-  }, []);
-
+  useEffect(() => { document.body.style.overflow = 'hidden'; return () => { document.body.style.overflow = 'unset'; }; }, []);
   return (
     <div className="fixed inset-0 z-[80] flex items-end md:items-center justify-center p-0 md:p-4">
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} onClick={onClose} className="absolute inset-0 bg-black/95 backdrop-blur-md" />
-      
-      <motion.div 
-        initial={{ y: "100%", opacity: 0 }} animate={{ y: 0, opacity: 1 }} exit={{ y: "100%", opacity: 0 }} 
-        transition={{ type: "spring", damping: 30, stiffness: 300 }} 
-        className="relative w-full max-w-sm bg-[#0f172a]/95 border border-white/10 rounded-t-[2.5rem] md:rounded-[3rem] p-6 md:p-8 shadow-2xl overflow-hidden backdrop-blur-3xl"
-        style={{ boxShadow: `0 0 60px ${hypeColor}` }}
-      >
+      <motion.div initial={{ y: "100%", opacity: 0 }} animate={{ y: 0, opacity: 1 }} exit={{ y: "100%", opacity: 0 }} transition={{ type: "spring", damping: 30, stiffness: 300 }} className="relative w-full max-w-sm bg-[#0f172a]/95 border border-white/10 rounded-t-[2.5rem] md:rounded-[3rem] p-6 md:p-8 shadow-2xl overflow-hidden backdrop-blur-3xl" style={{ boxShadow: `0 0 60px ${hypeColor}` }}>
         <div className="absolute -top-24 -left-24 w-48 h-48 blur-[80px] rounded-full pointer-events-none opacity-50" style={{ backgroundColor: hypeColor }} />
-
         <div className="w-10 h-1 bg-white/10 rounded-full mx-auto mb-6 md:hidden" />
-        
         <div className="relative z-10">
           <div className="flex justify-between items-center mb-6">
-             <div className={`flex items-center gap-1.5 px-3 py-1 rounded-full text-[8px] font-black uppercase tracking-[0.2em] border border-white/5 bg-white/5 ${accentColor}`}>
-                {item.hype === 'altissimo' && <Flame size={10} fill="currentColor" />}
-                {item.hype} Hype
-             </div>
+             <div className={`flex items-center gap-1.5 px-3 py-1 rounded-full text-[8px] font-black uppercase tracking-[0.2em] border border-white/5 bg-white/5 ${accentColor}`}>{item.hype === 'altissimo' && <Flame size={10} fill="currentColor" />} {item.hype} Hype</div>
              <button onClick={onClose} className="p-2 bg-white/5 rounded-xl text-slate-400 hover:text-white transition-all"><X size={20} /></button>
           </div>
-
-          <h2 className="text-2xl md:text-4xl font-black uppercase italic tracking-tighter mb-2 leading-tight bg-gradient-to-b from-white to-slate-400 bg-clip-text text-transparent">
-            {item.titulo}
-          </h2>
-          
-          <p className="text-cyan-500 font-black tracking-[0.3em] uppercase text-[9px] mb-6 flex items-center gap-2">
-             <span className="w-1.5 h-1.5 rounded-full bg-cyan-500 animate-pulse" />
-             {temData ? format(parseISO(item.data), "dd 'de' MMMM 'de' yyyy", { locale: ptBR }) : "Sai quando estiver pronto"}
-          </p>
-
-          <div className="flex flex-wrap gap-2 mb-8">
-             {item.plataformas?.map(p => (
-               <div key={p} className="flex items-center gap-2 bg-black/40 px-3 py-1.5 rounded-xl border border-white/5">
-                  {PLATFORM_ICONS[p] && <img src={PLATFORM_ICONS[p]} alt={p} className="h-3.5 w-3.5" />}
-                  <span className="text-[9px] font-black text-slate-300 uppercase">{p}</span>
-               </div>
-             ))}
-          </div>
-          
-          <div className="mb-8">
-            {temData && !isLancado ? (
-              <div className="grid grid-cols-5 gap-2">
-                <DetailTime label="Anos" val={tempo?.anos} />
-                <DetailTime label="Dias" val={tempo?.dias} />
-                <DetailTime label="Hrs" val={tempo?.horas} />
-                <DetailTime label="Min" val={tempo?.minutos} />
-                <DetailTime label="Seg" val={tempo?.segundos} />
-              </div>
-            ) : isLancado ? (
-              <div className="py-8 text-center bg-green-500/10 rounded-[2rem] border border-green-500/20 shadow-inner flex flex-col items-center gap-2">
-                 <CheckCircle2 size={32} className="text-green-500" />
-                 <div className="font-black text-green-500 uppercase tracking-[0.4em] text-[10px]">Já Disponível</div>
-              </div>
-            ) : (
-              <div className="py-10 text-center border border-dashed border-white/5 rounded-[2rem] opacity-30 flex flex-col items-center gap-2">
-                 <Clock size={24} />
-                 <div className="font-black uppercase tracking-[0.4em] text-[9px]">Aguardando Data</div>
-              </div>
-            )}
-          </div>
-
-          <div className="flex flex-col gap-2">
-            {!isLancado && temData && (
-              <button 
-                onClick={() => {
-                  const dateStr = item.data?.replace(/[-:]/g, '').split('.')[0] + "Z";
-                  window.open(`https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(item.titulo)}&dates=${dateStr}`, '_blank');
-                }} 
-                className={`w-full py-4 rounded-[1.5rem] font-black tracking-[0.2em] text-[10px] uppercase shadow-2xl flex items-center justify-center gap-3 active:scale-95 ${item.hype === 'altissimo' ? 'bg-orange-500 text-white shadow-orange-500/20' : 'bg-white text-black'}`}
-              >
-                <CalendarPlus size={18} /> Agenda
-              </button>
-            )}
-            <button 
-              onClick={() => navigator.share({ title: item.titulo, url: window.location.href })} 
-              className="w-full py-4 rounded-[1.5rem] bg-white/5 border border-white/10 text-white font-black text-[10px] tracking-[0.2em] uppercase flex items-center justify-center gap-3 active:scale-95"
-            >
-              <Share2 size={18} /> Compartilhar
-            </button>
-          </div>
+          <h2 className="text-2xl md:text-4xl font-black uppercase italic tracking-tighter mb-2 leading-tight bg-gradient-to-b from-white to-slate-400 bg-clip-text text-transparent">{item.titulo}</h2>
+          <p className="text-cyan-500 font-black tracking-[0.3em] uppercase text-[9px] mb-6 flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-cyan-500 animate-pulse" />{temData ? format(parseISO(item.data), "dd 'de' MMMM 'de' yyyy", { locale: ptBR }) : "Sai quando estiver pronto"}</p>
+          <div className="flex flex-wrap gap-2 mb-8">{item.plataformas?.map(p => ( <div key={p} className="flex items-center gap-2 bg-black/40 px-3 py-1.5 rounded-xl border border-white/5"> {PLATFORM_ICONS[p] && <img src={PLATFORM_ICONS[p]} alt={p} className="h-3.5 w-3.5" />} <span className="text-[9px] font-black text-slate-300 uppercase">{p}</span> </div> ))}</div>
+          <div className="mb-8">{temData && !isLancado ? ( <div className="grid grid-cols-5 gap-2"> <DetailTime label="Anos" val={tempo?.anos} /> <DetailTime label="Dias" val={tempo?.dias} /> <DetailTime label="Hrs" val={tempo?.horas} /> <DetailTime label="Min" val={tempo?.minutos} /> <DetailTime label="Seg" val={tempo?.segundos} /> </div> ) : isLancado ? ( <div className="py-8 text-center bg-green-500/10 rounded-[2rem] border border-green-500/20 shadow-inner flex flex-col items-center gap-2"> <CheckCircle2 size={32} className="text-green-500" /> <div className="font-black text-green-500 uppercase tracking-[0.4em] text-[10px]">Já Disponível</div> </div> ) : ( <div className="py-10 text-center border border-dashed border-white/5 rounded-[2rem] opacity-30 flex flex-col items-center gap-2"> <Clock size={24} /> <div className="font-black uppercase tracking-[0.4em] text-[9px]">Aguardando Data</div> </div> )}</div>
+          <div className="flex flex-col gap-2">{!isLancado && temData && ( <button onClick={() => { const dateStr = item.data?.replace(/[-:]/g, '').split('.')[0] + "Z"; window.open(`https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(item.titulo)}&dates=${dateStr}`, '_blank'); }} className={`w-full py-4 rounded-[1.5rem] font-black tracking-[0.2em] text-[10px] uppercase shadow-2xl flex items-center justify-center gap-3 active:scale-95 ${item.hype === 'altissimo' ? 'bg-orange-500 text-white shadow-orange-500/20' : 'bg-white text-black'}`}><CalendarPlus size={18} /> Agenda</button> )} <button onClick={() => navigator.share({ title: item.titulo, url: window.location.href })} className="w-full py-4 rounded-[1.5rem] bg-white/5 border border-white/10 text-white font-black text-[10px] tracking-[0.2em] uppercase flex items-center justify-center gap-3 active:scale-95"><Share2 size={18} /> Compartilhar</button></div>
         </div>
       </motion.div>
     </div>
@@ -476,12 +385,5 @@ function LaunchModal({ item, onClose }) {
 }
 
 function DetailTime({ label, val }) {
-  return (
-    <div className="bg-black/30 rounded-2xl p-2.5 md:p-3.5 text-center border border-white/5 shadow-inner backdrop-blur-sm">
-      <div className="text-lg md:text-2xl font-black leading-none mb-1.5 text-white tabular-nums">
-        {val !== undefined ? String(val).padStart(2, '0') : '--'}
-      </div>
-      <div className="text-[6px] md:text-[8px] font-black uppercase text-slate-500 tracking-[0.1em]">{label}</div>
-    </div>
-  );
+  return <div className="bg-black/30 rounded-2xl p-2.5 md:p-3.5 text-center border border-white/5 shadow-inner backdrop-blur-sm"><div className="text-lg md:text-2xl font-black leading-none mb-1.5 text-white tabular-nums">{val !== undefined ? String(val).padStart(2, '0') : '--'}</div><div className="text-[6px] md:text-[8px] font-black uppercase text-slate-500 tracking-[0.1em]">{label}</div></div>;
 }
