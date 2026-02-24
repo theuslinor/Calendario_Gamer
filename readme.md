@@ -1,4 +1,4 @@
-# 🚀 Release Radar - Calendário de Lançamentos 2026+
+# 🚀 [EM DESENVOLVIMENTO]Release Radar - Calendário de Lançamentos 2026+
 
 > Painel interativo de alta performance para acompanhamento de lançamentos de Jogos.
 
