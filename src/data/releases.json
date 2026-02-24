@@ -3566,9 +3566,19 @@
   "tipo": "game",
   "plataformas": [
     "PC"
+  ]
+},
+{
+  "id": "The_Elder_Scrolls_6",
+  "titulo": "The Elder Scrolls 6",
+  "data": null,
+  "tipo": "game",
+  "plataformas": [
+    "PC",
+    "Xbox Series X|S"
   ],
   "dataConfirmada": false,
-  "hype": "normal"
+  "hype": "altissimo"
 },
 {
   "id": "Witchbrook",
