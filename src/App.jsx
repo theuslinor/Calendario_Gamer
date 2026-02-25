@@ -11,13 +11,13 @@ import {
 } from 'date-fns';
 import { ptBR } from 'date-fns/locale';
 import { 
-  Gamepad2, Clapperboard, 
+  ChevronLeft, ChevronRight, Gamepad2, Clapperboard, 
   Tv, Heart, Flame, X, Share2, CalendarPlus, Clock, Zap, TrendingUp, Star, CheckCircle2, ChevronRightCircle, Search
 } from 'lucide-react';
 
 import dataReleases from './data/releases.json';
 
-// ASSETS: ÍCONES DE PLATAFORMA
+// ASSETS: ÍCONES
 import psIco from './assets/ico/playstation-ico.png';
 import xboxIco from './assets/ico/xbox_ico.png';
 import switchIco from './assets/ico/switch_ico.png';
@@ -26,7 +26,6 @@ import iosIco from './assets/ico/ios_ico.png';
 import androidIco from './assets/ico/android_ico.png';
 
 const HYPE_WEIGHT = { altissimo: 3, alto: 2, normal: 1 };
-
 const PLATFORM_ICONS = {
   "PS5": psIco, "PlayStation 5": psIco, "PS4": psIco,
   "Xbox Series X|S": xboxIco, "Xbox Series": xboxIco, "Xbox": xboxIco, "Xbox One": xboxIco,
@@ -190,7 +189,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-[#020617] text-slate-50 font-sans selection:bg-cyan-500/30 overflow-x-hidden">
       
-      {/* HEADER CENTRALIZADO (SEM SETAS) */}
+      {/* HEADER CENTRALIZADO COM SETAS RECUPERADAS */}
       <motion.header 
         variants={{ visible: { y: 0 }, hidden: { y: "-100%" } }}
         animate={headerVisible ? "visible" : "hidden"}
@@ -199,8 +198,11 @@ export default function App() {
         <div className="max-w-[1800px] mx-auto w-full flex flex-row items-center justify-center gap-4 md:gap-12 lg:gap-16">
           <h1 className="hidden md:block text-[10px] md:text-xs font-black italic tracking-tighter text-cyan-500 uppercase shrink-0">Radar</h1>
           
-          <div className="flex items-center gap-1 md:gap-4 bg-black/20 px-6 py-2 rounded-xl border border-white/5 shrink-0 shadow-inner">
-             <h2 className="text-[10px] md:text-lg font-black uppercase italic tracking-tighter text-center whitespace-nowrap">{format(viewDate, 'MMMM yyyy', { locale: ptBR })}</h2>
+          {/* 🟢 SELETOR DE DATA COM SETAS VOLTANDO */}
+          <div className="flex items-center gap-1 md:gap-4 bg-black/20 p-1 rounded-xl border border-white/5 shrink-0 shadow-inner">
+             <button onClick={() => paginate(-1)} className="p-1.5 md:p-2 hover:bg-white/10 rounded-lg active:scale-90 transition-all"><ChevronLeft size={16} /></button>
+             <h2 className="text-[10px] md:text-lg font-black uppercase italic tracking-tighter w-24 md:w-52 text-center whitespace-nowrap">{format(viewDate, 'MMMM yyyy', { locale: ptBR })}</h2>
+             <button onClick={() => paginate(1)} className="p-1.5 md:p-2 hover:bg-white/10 rounded-lg active:scale-90 transition-all"><ChevronRight size={16} /></button>
           </div>
 
           <div className="relative flex-[0.8] max-w-md" ref={searchRef}>
@@ -219,6 +221,7 @@ export default function App() {
                           <span className="font-black text-xs uppercase italic tracking-tight flex items-center gap-2">{item.titulo} {item.hype === 'altissimo' && <Flame size={10} className="text-orange-500 animate-pulse" />}</span>
                           <div className="flex gap-1">{item.plataformas?.map(p => PLATFORM_ICONS[p] && <img key={p} src={PLATFORM_ICONS[p]} alt={p} className="h-2.5 w-2.5 opacity-40" />)}<span className="text-[7px] font-black text-slate-500 uppercase tracking-widest ml-1 self-center">{item.data ? format(parseISO(item.data), "dd MMM yyyy") : "TBA"}</span></div>
                         </div>
+                        <ChevronRight size={14} className="opacity-50" />
                       </button>
                     );
                   })}
@@ -234,14 +237,14 @@ export default function App() {
       <div className="pt-24 md:pt-32 max-w-[1800px] mx-auto p-3 md:p-8">
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_350px] xl:grid-cols-[1fr_400px] gap-6 md:gap-12 items-start relative">
           
-          <section className="flex flex-col w-full max-w-5xl mx-auto overflow-visible relative">
+          <section className="flex flex-col w-full max-w-5xl mx-auto overflow-hidden">
             <div className={`grid ${isMobile ? 'grid-cols-5' : 'grid-cols-7'} mb-3 shrink-0`}>
               {(isMobile ? ['SEG', 'TER', 'QUA', 'QUI', 'SEX'] : ['DOM', 'SEG', 'TER', 'QUA', 'QUI', 'SEX', 'SAB']).map(dia => (
                 <div key={dia} className="text-center text-[8px] md:text-[10px] font-black text-slate-600 tracking-widest">{dia}</div>
               ))}
             </div>
 
-            <div className="relative overflow-hidden rounded-[2.5rem] bg-slate-900/40 shadow-2xl border-l border-t border-white/5 w-full">
+            <div className="relative overflow-hidden rounded-[2rem] bg-slate-900/40 shadow-2xl border-l border-t border-white/5 w-full">
               <AnimatePresence initial={false} custom={direction} mode="popLayout">
                 <motion.div 
                   key={viewDate.getMonth() + "-" + viewDate.getFullYear()}
@@ -306,15 +309,9 @@ export default function App() {
         <section className="overflow-hidden">
           <h3 className="text-[10px] font-black text-orange-500 uppercase tracking-[0.6em] mb-8 flex items-center justify-center gap-3 px-1"><Zap size={16} fill="currentColor" /> Radar de Hype Futurista</h3>
           <div ref={hypeCarouselRef} className="cursor-grab active:cursor-grabbing overflow-hidden px-1">
-            <motion.div 
-              drag="x"
-              dragConstraints={{ right: 0, left: -hypeConstraints }}
-              onDragStart={() => setIsDragging(true)}
-              onDragEnd={() => setTimeout(() => setIsDragging(false), 50)}
-              className="flex gap-4 md:gap-6 w-max"
-            >
+            <motion.div drag="x" dragConstraints={{ right: 0, left: -hypeConstraints }} onDragStart={() => setIsDragging(true)} onDragEnd={() => setTimeout(() => setIsDragging(false), 50)} className="flex gap-4 md:gap-6 w-max">
                {maisHypadosFuturos.map(item => (
-                 <button key={item.id} onClick={() => handleSelectGame(item)} className="min-w-[280px] md:min-w-[350px] p-8 md:p-12 rounded-[2.5rem] md:rounded-[3.5rem] bg-gradient-to-br from-orange-600/20 via-orange-950/10 to-transparent border border-orange-500/20 text-left shadow-2xl group transition-all">
+                 <button key={item.id} onClick={() => handleSelectGame(item)} className="min-w-[280px] md:min-w-[350px] p-8 md:p-12 rounded-[2.5rem] md:rounded-[3.5rem] bg-gradient-to-br from-orange-600/20 via-orange-950/10 to-transparent border border-orange-500/20 text-left active:border-orange-500/50 shadow-2xl group transition-all">
                     <div className="bg-orange-500/20 p-3 rounded-2xl w-fit mb-6 text-orange-500"><Star size={24} fill="currentColor" /></div>
                     <h4 className="text-xl md:text-3xl font-black uppercase italic tracking-tighter mb-4 group-hover:text-orange-400">{item.titulo}</h4>
                     <div className="flex gap-2 mb-4">{item.plataformas?.map(p => PLATFORM_ICONS[p] && <img key={p} src={PLATFORM_ICONS[p]} alt={p} className="h-4 w-4 opacity-60" />)}</div>
@@ -324,13 +321,12 @@ export default function App() {
             </motion.div>
           </div>
         </section>
-        
         <section>
           <div className="flex items-center gap-4 mb-8 px-1">
             <h3 className="text-[10px] font-black text-slate-500 uppercase tracking-[0.6em] flex items-center gap-3 shrink-0"><Clock size={16} /> Sai quando estiver pronto</h3>
             <div className="h-px w-full bg-white/5"></div>
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 2xl:grid-cols-8 gap-3 md:gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 2xl:grid-cols-8 gap-3 md:gap-6">
             {jogosSemDataSorted.map(item => {
               const hTbaStyles = { altissimo: "bg-orange-600/10 border-orange-500/30 text-orange-400 hover:bg-orange-600/20 hover:border-orange-500", alto: "bg-cyan-500/10 border-cyan-500/30 text-cyan-400 hover:bg-cyan-500/20 hover:border-cyan-500", normal: "bg-white/5 border-white/10 text-slate-500 hover:bg-white/10 hover:text-white" };
               return (
@@ -391,7 +387,7 @@ function LaunchModal({ item, onClose }) {
           <div className="flex justify-between items-center mb-6"><div className={`flex items-center gap-1.5 px-3 py-1 rounded-full text-[8px] font-black uppercase tracking-[0.2em] border border-white/5 bg-white/5 ${aColor}`}>{item.hype === 'altissimo' && <Flame size={10} fill="currentColor" />} {item.hype} Hype</div><button onClick={onClose} className="p-2 bg-white/5 rounded-xl text-slate-400 hover:text-white transition-all"><X size={20} /></button></div>
           <h2 className="text-2xl md:text-4xl font-black uppercase italic tracking-tighter mb-2 leading-tight bg-gradient-to-b from-white to-slate-400 bg-clip-text text-transparent">{item.titulo}</h2>
           <p className="text-cyan-500 font-black tracking-[0.4em] uppercase text-[9px] mb-6 flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-cyan-500 animate-pulse" />{temData ? format(gameDate, "dd 'de' MMMM 'de' yyyy", { locale: ptBR }) : "Sai quando estiver pronto"}</p>
-          <div className="flex flex-wrap gap-2 mb-8">{item.plataformas?.map(p => ( <div key={p} className="flex items-center gap-2 bg-black/40 px-3 py-1.5 rounded-xl border border-white/5"> {PLATFORM_ICONS[p] && <img src={PLATFORM_ICONS[p]} alt={p} className="h-3.5 w-3.5" />} <span className="text-[9px] font-black text-slate-300 uppercase">{p}</span> </div> ))}</div>
+          <div className="flex flex-wrap gap-2 mb-8">{item.plataformas?.map(p => PLATFORM_ICONS[p] && <div key={p} className="flex items-center gap-2 bg-black/40 px-3 py-1.5 rounded-xl border border-white/5"><img src={PLATFORM_ICONS[p]} alt={p} className="h-3.5 w-3.5" /><span className="text-[9px] font-black text-slate-300 uppercase">{p}</span></div>)}</div>
           <div className="mb-8">{temData && !isLancado ? ( <div className="grid grid-cols-5 gap-2"> <DetailTime label="Anos" val={tempo?.anos} /> <DetailTime label="Dias" val={tempo?.dias} /> <DetailTime label="Hrs" val={tempo?.horas} /> <DetailTime label="Min" val={tempo?.minutos} /> <DetailTime label="Seg" val={tempo?.segundos} /> </div> ) : isLancado ? ( <div className="py-8 text-center bg-green-500/10 rounded-[2rem] border border-green-500/20 shadow-inner flex flex-col items-center gap-2"> <CheckCircle2 size={32} className="text-green-500" /> <div className="font-black text-green-500 uppercase tracking-[0.4em] text-[10px]">Já Disponível</div> </div> ) : ( <div className="py-10 text-center border border-dashed border-white/5 rounded-[2rem] opacity-30 flex flex-col items-center gap-2"> <Clock size={24} /> <div className="font-black uppercase tracking-[0.4em] text-[9px]">Aguardando Data</div> </div> )}</div>
           <div className="flex flex-col gap-2">{!isLancado && temData && ( <button onClick={() => { const dateStr = item.data?.replace(/[-:]/g, '').split('.')[0] + "Z"; window.open(`https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(item.titulo)}&dates=${dateStr}`, '_blank'); }} className={`w-full py-4 rounded-[1.5rem] font-black tracking-[0.2em] text-[10px] uppercase shadow-2xl flex items-center justify-center gap-3 active:scale-95 ${item.hype === 'altissimo' ? 'bg-orange-500 text-white shadow-orange-500/20' : 'bg-white text-black'}`}><CalendarPlus size={18} /> Agenda</button> )} <button onClick={() => navigator.share({ title: item.titulo, url: window.location.href })} className="w-full py-4 rounded-[1.5rem] bg-white/5 border border-white/10 text-white font-black text-[10px] tracking-[0.2em] uppercase flex items-center justify-center gap-3 active:scale-95"><Share2 size={18} /> Compartilhar</button></div>
         </div>
@@ -403,7 +399,7 @@ function LaunchModal({ item, onClose }) {
 function DetailTime({ label, val }) {
   return (
     <div className="bg-black/30 rounded-2xl p-2.5 md:p-3.5 text-center border border-white/5 shadow-inner backdrop-blur-sm flex flex-col items-center justify-center min-w-0 flex-1 h-full">
-      <div className="text-lg md:text-2xl font-black leading-none mb-1.5 text-white tabular-nums w-full text-center flex items-center justify-center">
+      <div className="text-lg md:text-2xl font-black leading-tight text-white tabular-nums w-full text-center flex items-center justify-center">
         {val !== undefined ? String(val).padStart(2, '0') : '--'}
       </div>
       <div className="text-[6px] md:text-[8px] font-black uppercase text-slate-500 tracking-[0.1em] mt-1 w-full text-center">
