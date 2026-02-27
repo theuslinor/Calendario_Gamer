@@ -1066,6 +1066,20 @@
     "dataConfirmada": true,
     "hype": "alto"
   },
+   {
+    "id": "Neverness_to_Everness",
+    "titulo": "Neverness to Everness",
+    "data": "2026-04-29T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "PC",
+      "iOS",
+      "Android"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
   {
     "id": "Never_Grace_The_Witch_and_the_Curse",
     "titulo": "Never Grace: The Witch and the Curse",
