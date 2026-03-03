@@ -13,6 +13,20 @@
     "hype": "normal"
   },
   {
+    "id": "Mixtape",
+    "titulo": "Mixtape",
+    "data": "2026-05-07T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC",
+      "Xbox Series X|S",
+      "Playstation 5",
+      "Switch 2"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
     "id": "Blasten",
     "titulo": "Blasten!!",
     "data": "2026-01-08T14:00:00Z",
