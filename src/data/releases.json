@@ -1585,7 +1585,20 @@
   {
     "id": "Pragmata",
     "titulo": "Pragmata",
-    "data": "2026-04-24T14:00:00Z",
+    "data": "2026-04-17T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PS5",
+      "Xbox Series X|S",
+      "PC"
+    ],
+    "dataConfirmada": true,
+    "hype": "altissimo"
+  },
+  {
+    "id": "Assassin's_Creed_Black_Flag_Resynced",
+    "titulo": "Assassin's Creed Black Flag Resynced",
+    "data": "",
     "tipo": "game",
     "plataformas": [
       "PS5",
