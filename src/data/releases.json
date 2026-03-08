@@ -2958,19 +2958,19 @@
   "hype": "normal"
 },
 {
-  "id": "Outbound",
-  "titulo": "Outbound",
-  "data": "2026-04-23T14:00:00Z",
-  "tipo": "game",
-  "plataformas": [
-    "PS5",
-    "Xbox",
-    "Switch",
-    "PC"
-  ],
-  "dataConfirmada": false,
-  "hype": "alto"
-},
+    "id": "Outbound",
+    "titulo": "Outbound",
+    "data": "2026-0423T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC",
+      "Xbox Series X|S",
+      "PS5",
+      "Switch 2"
+    ],
+    "dataConfirmada": true,
+    "hype": "altissimo"
+  },
 {
   "id": "Out_of_Words",
   "titulo": "Out of Words",
