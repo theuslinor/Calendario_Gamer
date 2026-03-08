@@ -2960,7 +2960,7 @@
 {
   "id": "Outbound",
   "titulo": "Outbound",
-  "data": null,
+  "data": "2026-04-23T14:00:00Z",
   "tipo": "game",
   "plataformas": [
     "PS5",
@@ -2969,7 +2969,7 @@
     "PC"
   ],
   "dataConfirmada": false,
-  "hype": "normal"
+  "hype": "alto"
 },
 {
   "id": "Out_of_Words",
