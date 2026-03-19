@@ -372,7 +372,7 @@ function LaunchModal({ item, onClose }) {
   const tempo = useCountdown(item.data);
   const agora = new Date();
   const gameDate = item.data ? parseISO(item.data) : null;
-  const isLancado = gameDate && (isAfter(agora, gameDate) || isSameDay(agora, gameDate));
+ const isLancado = gameDate && !isAfter(gameDate, agora);
   const temData = !!item.data;
   const hColor = item.hype === 'altissimo' ? 'rgba(249, 115, 22, 0.15)' : item.hype === 'alto' ? 'rgba(6, 182, 212, 0.15)' : 'rgba(255, 255, 255, 0.05)';
   const aColor = item.hype === 'altissimo' ? 'text-orange-500' : item.hype === 'alto' ? 'text-cyan-400' : 'text-slate-400';
