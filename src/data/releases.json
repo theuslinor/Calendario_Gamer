@@ -15,7 +15,7 @@
   {
     "id": "the_boys_s05_e01_e02",
     "titulo": "The Boys - Episódios 1 e 2",
-    "data": "2026-04-08T00:00:00Z",
+    "data": "2026-04-08T21:00:00-03:00",
     "tipo": "serie",
     "plataformas": ["Prime Video"],
     "dataConfirmada": true,
@@ -24,7 +24,7 @@
   {
     "id": "the_boys_s05_e03",
     "titulo": "The Boys - Episódio 3",
-    "data": "2026-04-15T00:00:00Z",
+    "data": "2026-04-15T21:00:00-03:00",
     "tipo": "serie",
     "plataformas": ["Prime Video"],
     "dataConfirmada": true,
@@ -33,7 +33,7 @@
   {
     "id": "the_boys_s05_e04",
     "titulo": "The Boys - Episódio 4",
-    "data": "2026-04-22T00:00:00Z",
+    "data": "2026-04-22T21:00:00-03:00",
     "tipo": "serie",
     "plataformas": ["Prime Video"],
     "dataConfirmada": true,
@@ -42,7 +42,7 @@
   {
     "id": "the_boys_s05_e05",
     "titulo": "The Boys - Episódio 5",
-    "data": "2026-04-29T00:00:00Z",
+    "data": "2026-04-29T21:00:00-03:00",
     "tipo": "serie",
     "plataformas": ["Prime Video"],
     "dataConfirmada": true,
@@ -51,7 +51,7 @@
   {
     "id": "the_boys_s05_e06",
     "titulo": "The Boys - Episódio 6",
-    "data": "2026-05-06T00:00:00Z",
+    "data": "2026-05-06T21:00:00-03:00",
     "tipo": "serie",
     "plataformas": ["Prime Video"],
     "dataConfirmada": true,
@@ -60,7 +60,7 @@
   {
     "id": "the_boys_s05_e07",
     "titulo": "The Boys - Episódio 7",
-    "data": "2026-05-13T00:00:00Z",
+    "data": "2026-05-13T21:00:00-03:00",
     "tipo": "serie",
     "plataformas": ["Prime Video"],
     "dataConfirmada": true,
@@ -69,7 +69,7 @@
   {
     "id": "the_boys_s05_e08",
     "titulo": "The Boys - Episódio 8 (Final)",
-    "data": "2026-05-20T00:00:00Z",
+    "data": "2026-05-20T21:00:00-03:00",
     "tipo": "serie",
     "plataformas": ["Prime Video"],
     "dataConfirmada": true,
