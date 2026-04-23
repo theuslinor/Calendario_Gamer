@@ -13,6 +13,19 @@
     "hype": "normal"
   },
   {
+    "id": "Assassin's Creed Black Flag Resynced",
+    "titulo": "Assassin's_Creed_Black_Flag_Resynced",
+    "data": "2026-07-09T14:00:00Z",
+    "tipo": "game",
+    "plataformas": [
+      "PC",
+      "PS5",
+      "Xbox Series X|S"
+    ],
+    "dataConfirmada": true,
+    "hype": "normal"
+  },
+  {
     "id": "the_boys_s05_e01_e02",
     "titulo": "The Boys - Episódios 1 e 2",
     "data": "2026-04-08T21:00:00-03:00",
